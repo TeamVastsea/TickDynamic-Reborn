@@ -354,7 +354,7 @@ public class ListManager<T extends EntityObject> implements List<T> {
 	@Override
 	public boolean remove(Object object) {
 		if (!contains(object)) {
-			TickDynamicMod.logWarn("Failed to remove: " + object + " as it does not exist in the list.");
+			//TickDynamicMod.logWarn("Failed to remove: " + object + " as it does not exist in the list.");
 			return false;
 		}
 
