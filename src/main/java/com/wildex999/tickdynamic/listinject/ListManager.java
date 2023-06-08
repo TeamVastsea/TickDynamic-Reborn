@@ -371,8 +371,6 @@ public class ListManager<T extends EntityObject> implements List<T> {
 
 	@Override
 	public T remove(int index) {
-		Thread.dumpStack();
-		TickDynamicMod.logDebug("Debug Warning: Using slow remove of objects(Remove by index)!");
 		T entityObject = get(index);
 		if (remove(entityObject))
 			return entityObject;
