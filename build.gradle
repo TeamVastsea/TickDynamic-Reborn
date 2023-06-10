@@ -39,7 +39,7 @@ def signJar(archivePath) {
     }
 }
 
-version = "1.0.2"
+version = "1.0.3-Reborn"
 group= "com.wildex999.tickdynamic"
 archivesBaseName = "TickDynamic-1.12.2"
 
@@ -50,7 +50,7 @@ allprojects {
 
 
 minecraft {
-    version = "1.12.2-14.23.1.2555"
+    version = "1.12.2-14.23.5.2860"
     runDir = "run"
     replace '${version}', project.version
     mappings = "snapshot_20170815"
